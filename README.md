@@ -14,6 +14,8 @@ In compliance with HIPPA, we will not be sharing our data or pre-processing scri
   4. Comorbidity: past diagnosis based on ICD-9/10 codes, binary variables. Ex. Cardiactransplant, NotCardiacTransplant, Aortic Valve Disorders, Atrial Fibrillation/Atrial Flutter, Cerebrovascular Disease Including Ischemic/Hemorrhagic Stroke.
   5. Vitals: Four on admission values: BPSystolicAtPresentation, BPDiastolicAtPresentation, PulseAtPresentation, TemperatureAtPresentation. Five vital measures split into 5 timepoints relative to the hospital stay length: Heart_Rate, SpO2, Temperature, Systolic_bp, Diastolic_bp. The post fix _0, _1, _2, _3, _4 represents the value closest to the xth quater time of the entire stay.
   7. Labs: Five labs recorded once: CHOL, CHOLHDL, CHOLLDL, HGBA1C, TRIGLY and respective _missing columns to indicate missingness. The rest of lab measures, eg. BNP, Calcium, HGB, Creatine, split into 5 timepoints similar to vitals, and a _missing column.
+
+
 All measures within 12-hr window of event have been removed.
 
 
