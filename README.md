@@ -16,6 +16,6 @@ In compliance with HIPPA, we will not be sharing our data or pre-processing scri
   7. Labs: Five labs recorded once: CHOL, CHOLHDL, CHOLLDL, HGBA1C, TRIGLY and respective _missing columns to indicate missingness. The rest of lab measures, eg. BNP, Calcium, HGB, Creatine, split into 5 timepoints similar to vitals, and a _missing column.
 
 
-All measures within 12-hr window of event have been removed. The example.csv file serves merely as an example of input data.
+All measures within 12-hr window prior to event have been removed. The example.csv file serves merely as an example of input data.
 
 
