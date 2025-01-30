@@ -7,7 +7,7 @@ Here we include the pipeline for training, testing and validating machine learni
 > will add link here
 
 ## Data preprocessing
-In compliance with HIPPA, we will not be sharing our data or pre-processing scripts with sensitive information, but will provide a toy example dataset and describe the input format below. For input, we take in the following:
+In compliance with HIPAA, we will not be sharing our data or pre-processing scripts with sensitive information, but will provide a toy example dataset and describe the input format below. For input, we take in the following:
   1. HospitalAdmissionTime: for splitting the dataset into train and test, user can define their own timepoint or use random split as they see fit
   2. ExpiredStatus: target value for patient mortality
   3. Demographics: PatientAge, PatientBMI, Sex(binary), SmokingStatus(binary), Race(binned groups), ef_category(binned groups)
